@@ -1,0 +1,6 @@
+@import url("../root.css");
+
+.info {
+    height: 75vh;
+    background-color: var(--queen-pink);
+}

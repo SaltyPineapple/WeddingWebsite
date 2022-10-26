@@ -23,8 +23,8 @@
     top: 30%;
     width: 100%;
     text-align: center;
-    font-size: 2em;
-    font-family: 'Montserrat', sans-serif;
+    font-size: 3em;
+    font-family: 'Permanent Marker', sans-serif;
     font-weight: bold;
     color: white;
     text-shadow: 0.5px 0.5px black;
@@ -50,4 +50,9 @@
     padding: 20px;
     margin: 5px;
     color: black;
+}
+
+.link:hover {
+    color: var(--oxford-blue);
+    border-bottom: 2px solid var(--oxford-blue);
 }
