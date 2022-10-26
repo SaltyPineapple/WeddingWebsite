@@ -1,11 +1,9 @@
-import Header from "./components/header.jsx"
-import Separator from "./components/separator.jsx";
+import Header from "./components//header/header";
 
 function App() {
   return (
     <div className="App">
       <Header></Header>
-      <Separator></Separator>
     </div>
   );
 }
