@@ -1,7 +1,7 @@
 @import url("../root.css");
 
 .hero {
-    background-image: url("../../images/cool-beach.jpg");
+    background-image: url("../../images/better-beach.jpg");
     background-size: cover;
     height: 110vh;
     background-attachment: fixed;
