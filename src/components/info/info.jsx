@@ -1,11 +1,13 @@
 import React from "react";
 import "./info.css"
+import infoImage from "../../images/piggy-back.jpg";
 
 const Info = () => {
     return (
         <div className="info">
-            <div className="picture">
-            </div>
+            {/* <div className="picture">
+            </div> */}
+            <img className="picture" src={infoImage} alt=""/>
 
             {/* <div className="separator"></div> */}
             
