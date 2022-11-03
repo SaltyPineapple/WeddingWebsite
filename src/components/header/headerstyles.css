@@ -9,11 +9,11 @@
 
 .headerName {
     font-family: 'Gochi Hand', cursive;
-    font-size: 48px;
+    font-size: 3em;
     font-weight: 400;
     padding-left: 5px;
     padding-right: 5px;
-    text-shadow: .35px .35px #000000;
+    text-shadow: .55px .55px #000000;
     margin: 10px;
 }
 
@@ -25,6 +25,19 @@
     text-align: center;
     font-size: 3em;
     font-family: 'Slabo', serif;
+    color: white;
+    text-shadow: 0.5px 0.5px black;
+}
+
+.date {
+    position: absolute;
+    margin: auto;
+    top: 45%;
+    width: 100%;
+    text-align: center;
+    font-size: 2em;
+    font-family: 'Slabo', serif;
+    font-weight: bold;
     color: white;
     text-shadow: 0.5px 0.5px black;
 }
@@ -61,11 +74,18 @@
     padding: 10px;
     margin: 5px;
     color: var(--oxford-blue);
+    font-family: "Montserrat";
     transition: .2s;
 }
 
 .link:hover {
     font-weight: bold;
+}
+
+button {
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
 }
 
 .nav {

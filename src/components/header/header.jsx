@@ -34,6 +34,9 @@ const Header = props => {
                 <div className="heroText">
                     <h1>We're Getting Married!</h1>
                 </div>
+                <div className="date">
+                    <p>06.17.23</p>
+                </div>
             </div>
         </div>
     );
