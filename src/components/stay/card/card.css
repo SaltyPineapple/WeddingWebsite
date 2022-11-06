@@ -1,0 +1,7 @@
+@import url("../../root.css");
+
+.card-container {
+    flex: 1;
+    background-color: var(--platinum);
+    margin: 5px;
+}

@@ -1,0 +1,6 @@
+@import url("../root.css");
+
+.stay-container {
+    display: flex;
+    flex-direction: row;
+}
