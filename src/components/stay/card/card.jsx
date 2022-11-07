@@ -3,10 +3,10 @@ import "./card.css"
 
 const card = (props) => {
     return (
-        <div className="card-container">
-            <h1>{props.title}</h1>
+        <div className="card">
+            <h1 className="stay-header">{props.title}</h1>
             <div className="line"></div>
-            <p className="content"></p>
+            <p className="content">{props.content}</p>
         </div>
     );
 }
