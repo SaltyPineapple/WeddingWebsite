@@ -1,10 +1,17 @@
 @import url("../root.css");
 
-.card-container {
-    display: flex;
-    flex-direction: row;
+.stay-container{
+    background-image: url("../../images/leavenworth.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+    height: 400px;
+    padding-top: 1em;
+    font-family: 'Slabo', serif;
 }
 
-.stay-container{
-    background-color: var(--banana-mania);
+.card-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-column-gap: 20px;
+    padding-top: 4em; 
 }

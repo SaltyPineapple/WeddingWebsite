@@ -1,15 +1,22 @@
 @import url("../../root.css");
 
 .card {
-    flex: 1;
     background-color: var(--platinum);
-    margin: 5px;
+    color: var(--oxford-blue);
     text-align: center;
-    border-radius: 10px;
-    box-shadow: 0 4px 8px rgba(0,0,0,0.12), 0 2.5px 2.5px rgba(0,0,0,0.24);   
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.12), 0 2.5px 2.5px rgba(0,0,0,0.24);
+    padding: 2em 1em;
+    width: 80%;
+    margin: auto;
+    transition: .3s;
 }
 
-.line {
+.card:hover {
+    box-shadow: 0 16px 32px rgba(0,0,0,0.12), 0 10px 10px rgba(0,0,0,0.24);
+}
+
+.card-line {
     background-color: var(--oxford-blue);
     width: 90%;
     height: 1.5px;
@@ -18,4 +25,9 @@
 
 .stay-title {
     text-align: center;
+}
+
+.content {
+    padding-top: 1em;
+    font-size: 1.2em;
 }
