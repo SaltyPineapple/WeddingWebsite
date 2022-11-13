@@ -43,3 +43,22 @@
     height: 80%;
     width: 80%;
 }
+
+@media only screen and (max-width: 425px) {
+    .info {
+        padding: 0;
+        height: 90vh;
+    }
+
+    .information h1 {
+        font-size: 3em;
+    }
+    
+    .picture-container {
+        display: none;
+    }
+
+    .bouquet-upper {
+        height: 50%;
+    }
+}

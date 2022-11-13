@@ -31,3 +31,9 @@
     padding-top: 1em;
     font-size: 1.2em;
 }
+
+@media only screen and (max-width: 425px) {
+    .card {
+        padding: 1em;
+    }
+}

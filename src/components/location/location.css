@@ -36,3 +36,20 @@
 .location-button:hover {
     background-color: var(--platinum);
 }
+
+@media only screen and (max-width: 425px) {
+    .location {
+        display: block;
+        text-align: center;
+        padding: 4% 0;
+    }
+
+    .location-button {
+        padding: 4%;
+        margin: 5%;
+    }
+
+    .line {
+        display: none;
+    }
+}
