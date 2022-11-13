@@ -1,0 +1,13 @@
+@import url("../root.css");
+
+.footer-container {
+    background-color: var(--oxford-blue);
+    color: white;
+    text-align: center;
+    height: 8vh;
+    font-size: large;
+}
+
+.footer-content {
+    padding-top: 20px;    
+}
