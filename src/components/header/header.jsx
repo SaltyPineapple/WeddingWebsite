@@ -20,14 +20,12 @@ const Header = props => {
                     <div className={hasScrolledDown > 0 ? "nav" : "navNoDisplay"}>
                         <a href="#" className="link">Important Info</a> 
                         <a href="#" className="link">Location & Stay</a>  
-                        <a href="#" className="link">Registry</a>  
-                        <a href="#" className="link">Contact</a> 
-                        <a href="#" className="link">RSVP</a> 
+                        <a href="https://www.zola.com/registry/brianneandmark2023" className="link" target="_blank" rel="noreferrer">Registry</a>  
                     </div>
 
                 </div>
 
-                <a href="#" className={hasScrolledDown > 0 ? "rsvp" : "rsvpTransparent"}>
+                <a href="https://docs.google.com/forms/d/e/1FAIpQLSeARtmyOvm_u3JNIZJWySkpdx7Cfc7v8tbQ1IOQWtXYo_VVdQ/viewform?usp=sf_link" className={hasScrolledDown > 0 ? "rsvp" : "rsvpTransparent"} target="_blank" rel="noreferrer">
                     RSVP
                 </a>
 
