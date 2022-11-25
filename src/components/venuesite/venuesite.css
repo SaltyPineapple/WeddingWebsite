@@ -42,6 +42,7 @@
         display: block;
         text-align: center;
         padding: 4% 0;
+        height: 15vh;
     }
 
     .location-button {

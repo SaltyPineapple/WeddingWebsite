@@ -16,6 +16,12 @@
     padding-top: 4em; 
 }
 
+.stay-title {
+    font-family: 'Slabo', serif;
+    font-size: 1.2em;
+    text-align: center;
+}
+
 @media only screen and (max-width: 425px)  {
     .card-container{
         grid-template-columns: 1fr;

@@ -16,6 +16,10 @@
     box-shadow: 0 16px 32px rgba(0,0,0,0.12), 0 10px 10px rgba(0,0,0,0.24);
 }
 
+.stay-header {
+    font-family: 'Montserrat';
+}
+
 .card-line {
     background-color: var(--oxford-blue);
     width: 90%;
@@ -23,13 +27,10 @@
     margin: auto;
 }
 
-.stay-title {
-    text-align: center;
-}
-
 .content {
     padding-top: 1em;
     font-size: 1.2em;
+    font-family: 'Montserrat';
 }
 
 @media only screen and (max-width: 425px) {
