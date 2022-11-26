@@ -46,7 +46,7 @@ const stay = () => {
     return (
         <div className="stay-container">
             <div className="stay-title">
-                <h1>Find Places to Stay</h1>
+                <h1>Find Lodging</h1>
             </div>
             <div className="card-container">
                     <Card title="AirBnB" content={airbnb} />

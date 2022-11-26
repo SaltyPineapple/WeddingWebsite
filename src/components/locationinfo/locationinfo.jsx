@@ -7,11 +7,13 @@ const locationinfo = () => {
     return (
         <div className="location-info">
             <div className="location-information">
-                <h1>Venue Details</h1>
-                <h3>Brown Family Homestead</h3>
+                <h1>Wedding Details</h1>
+                <h3>Dressy Casual Attire</h3>
                 <p>No dogs</p>
                 <p>
-                    <a href="http://www.brownfamilyhomestead.com/wedding-guest-info" target={"_blank"} rel="noreferrer">Directions</a>
+                    <a href="http://www.brownfamilyhomestead.com/wedding-guest-info" target={"_blank"} rel="noreferrer">
+                        Directions to the venue
+                    </a>
                 </p>
             </div>
             <div className="location-picture-container">

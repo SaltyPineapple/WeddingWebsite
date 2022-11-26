@@ -3,7 +3,7 @@
 .hero {
     background-image: url("../../images/kiss-dock-lean.jpg");
     background-size: cover;
-    height: 110vh;
+    height: 120vh;
     background-attachment: fixed;
 }
 
@@ -150,6 +150,6 @@ button {
     }
 
     .date{
-        top: 65%;
+        top: 85%;
     }
 }
