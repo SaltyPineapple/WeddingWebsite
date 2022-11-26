@@ -3,7 +3,7 @@
 .hero {
     background-image: url("../../images/kiss-dock-lean.jpg");
     background-size: cover;
-    height: 120vh;
+    height: 110vh;
     background-attachment: fixed;
 }
 
@@ -133,6 +133,7 @@ button {
     
     .hero {
         background-image: url("../../images/piggy-back.jpg");
+        height: 100vh;
     }
 
     .rsvp, .rsvpTransparent {
