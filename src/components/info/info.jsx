@@ -5,7 +5,7 @@ import bouquetUpper from "../../images/bouquet-1.png";
 
 const Info = () => {
     return (
-        <div className="info">
+        <div className="info" id="important-info">
             <div className="picture-container">
                 <img className="picture" src={infoImage} alt=""/>
             </div>

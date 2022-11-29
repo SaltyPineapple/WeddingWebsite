@@ -1,5 +1,6 @@
 /* eslint-disable jsx-a11y/anchor-is-valid */
 import React, { useState, useEffect } from "react";
+import { Link } from "react-scroll";
 import "./headerstyles.css"
 
 const Header = props => {
@@ -18,8 +19,20 @@ const Header = props => {
                 <div className={hasScrolledDown > 0 ? "container" : "containerTransparent"}>
                     <h1 className="headerName">Mark & Brianne</h1>
                     <div className={hasScrolledDown > 0 ? "nav" : "navNoDisplay"}>
-                        <a href="#" className="link">Important Info</a> 
-                        <a href="#" className="link">Location & Stay</a>  
+                        <Link to="important-info"
+                            className="link"
+                            spy={true}
+                            smooth={true}
+                            duration={500}>
+                                Important Info
+                        </Link>
+                        <Link to="location-and-stay"
+                            className="link"
+                            spy={true}
+                            smooth={true}
+                            duration={500}>
+                                Location & Stay
+                        </Link>
                         <a href="https://www.zola.com/registry/brianneandmark2023" className="link" target="_blank" rel="noreferrer">Registry</a>  
                     </div>
 

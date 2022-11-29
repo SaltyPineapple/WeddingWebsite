@@ -73,6 +73,7 @@
     text-decoration: none;
     padding: 10px;
     margin: 5px;
+    cursor: pointer;
     color: var(--oxford-blue);
     font-family: "Montserrat";
     transition: .2s;

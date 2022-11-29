@@ -44,7 +44,7 @@ const stay = () => {
     ]
 
     return (
-        <div className="stay-container">
+        <div className="stay-container" id="location-and-stay">
             <div className="stay-title">
                 <h1>Find Lodging</h1>
             </div>
