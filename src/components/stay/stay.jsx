@@ -7,9 +7,14 @@ const stay = () => {
     var airbnb = [
         {
             id: 1,
-            title:"Leavenworth Area",
+            title:"AirBnb Leavenworth Area",
             link:"https://www.airbnb.com/s/Leavenworth--Washington--United-States/homes?tab_id=home_tab&refinement_paths%5B%5D=%2Fhomes&flexible_trip_lengths%5B%5D=one_week&price_filter_input_type=0&price_filter_num_nights=5&query=Leavenworth%2C%20WA&place_id=ChIJjfn4pJJNmlQRfu-_CvuVT6E&date_picker_type=calendar&checkin=2023-06-17&checkout=2023-06-18&source=structured_search_input_header&search_type=autocomplete_click"
-        }
+        },
+        {
+            id: 2,
+            title:"VRBO Leavenworth Area",
+            link:"https://www.vrbo.com/search/keywords:leavenworth-washington-united-states-of-america/arrival:2023-06-17/departure:2023-06-18?adultsCount=2&petIncluded=false&filterByTotalPrice=true"
+        },
     ]
 
     var hotels = [
@@ -49,8 +54,8 @@ const stay = () => {
                 <h1>Find Lodging</h1>
             </div>
             <div className="card-container">
-                    <Card title="AirBnB" content={airbnb} />
                     <Card title="Hotels" content={hotels} />
+                    <Card title="AirBnB" content={airbnb} />
                     <Card title="Camping" content={camping} />
             </div>
         </div>
