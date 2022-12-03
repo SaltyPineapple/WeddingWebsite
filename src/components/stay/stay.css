@@ -4,8 +4,8 @@
     background-image: url("../../images/leavenworth.jpg");
     background-size: cover;
     background-attachment: fixed;
-    height: 400px;
-    padding-top: 1em;
+    height: 100%;
+    padding: 1em;
     font-family: 'Slabo', serif;
 }
 
@@ -30,6 +30,6 @@
     }
 
     .stay-container{
-        height: 75vh;
+        padding: 1em 0;
     }
 }

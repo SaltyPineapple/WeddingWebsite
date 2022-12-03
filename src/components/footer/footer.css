@@ -4,10 +4,10 @@
     background-color: var(--oxford-blue);
     color: white;
     text-align: center;
-    height: 8vh;
+    height: 100%;
     font-size: large;
 }
 
 .footer-content {
-    padding-top: 20px;    
+    padding: 20px;    
 }

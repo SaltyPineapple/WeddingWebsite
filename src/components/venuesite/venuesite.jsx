@@ -8,7 +8,7 @@ const venuesite = () => {
             <div className="line"></div>
             <a href="http://www.brownfamilyhomestead.com/wedding-guest-info" target={"_blank"} rel="noreferrer">
                 <button className="location-button">
-                    Venue Website
+                    Venue Guest Info
                 </button>
             </a>
             <div className="line"></div>

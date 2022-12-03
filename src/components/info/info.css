@@ -1,7 +1,7 @@
 @import url("../root.css");
 
 .info {
-    height: 110vh;
+    height: 100%;
     background-color: var(--platinum);
     padding: 4% 4%;
     display: flex;
@@ -14,7 +14,6 @@
 }
 
 .picture {
-    flex: 1;
     object-fit: cover;
     width: 100%;
     height: 100%;
@@ -30,7 +29,7 @@
 }
 
 .information * {
-    padding: 2% 0%;
+    padding: 2% 1%;
 }
 
 .information h1 {
@@ -51,7 +50,7 @@
 @media only screen and (max-width: 425px) {
     .info {
         padding: 0;
-        height: 90vh;
+        height: 100%;
     }
 
     .information h1 {
