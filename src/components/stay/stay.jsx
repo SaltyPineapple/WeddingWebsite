@@ -7,12 +7,12 @@ const stay = () => {
     var airbnb = [
         {
             id: 1,
-            title:"AirBnb Leavenworth Area",
-            link:"https://www.airbnb.com/s/Leavenworth--Washington--United-States/homes?tab_id=home_tab&refinement_paths%5B%5D=%2Fhomes&flexible_trip_lengths%5B%5D=one_week&price_filter_input_type=0&price_filter_num_nights=5&query=Leavenworth%2C%20WA&place_id=ChIJjfn4pJJNmlQRfu-_CvuVT6E&date_picker_type=calendar&checkin=2023-06-17&checkout=2023-06-18&source=structured_search_input_header&search_type=autocomplete_click"
+            title:"AirBnb Lake Wenatchee Area",
+            link:"https://www.airbnb.com/s/Leavenworth--Washington--United-States/homes?tab_id=home_tab&refinement_paths%5B%5D=%2Fhomes&flexible_trip_lengths%5B%5D=one_week&price_filter_input_type=0&price_filter_num_nights=1&query=Leavenworth%2C%20WA&place_id=ChIJjfn4pJJNmlQRfu-_CvuVT6E&date_picker_type=calendar&checkin=2023-06-17&checkout=2023-06-18&source=structured_search_input_header&search_type=user_map_move&ne_lat=47.915905045766216&ne_lng=-120.53201739956484&sw_lat=47.60294562612523&sw_lng=-120.89341467992261&zoom=11&search_by_map=true"
         },
         {
             id: 2,
-            title:"VRBO Leavenworth Area",
+            title:"VRBO Lake Wenatchee Area",
             link:"https://www.vrbo.com/search/keywords:leavenworth-washington-united-states-of-america/arrival:2023-06-17/departure:2023-06-18?adultsCount=2&petIncluded=false&filterByTotalPrice=true"
         },
     ]

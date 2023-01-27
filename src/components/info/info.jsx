@@ -12,7 +12,7 @@ const Info = () => {
             
             <div className="information">
                 <h1>Ceremony & Reception</h1>
-                <h2>4:00 PM</h2>
+                <h2>4:00 - 10:00 PM</h2>
                 <h3>Brown Family Homestead</h3>
                 <p>Leavenworth, WA</p>
                 <p>
